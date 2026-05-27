@@ -99,7 +99,7 @@ def send_discord_update(os_name: str, old: str, new: str):
 def send_discord_future_update(os_name: str, old: str, new: str):
     embed = {
         "title": f"Future Roblox {os_name} Update Detected",
-        "description": "A new version was detected on the ZBeta channel.",
+        "description": "A new version was detected!.",
         "color": 0x8A2BE2,
         "fields": [
             {
